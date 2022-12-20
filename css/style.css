@@ -43,6 +43,7 @@ align-items: center;
 .logo {
 display: flex;
 
+color: var(--color-logo);
 font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
@@ -51,9 +52,7 @@ letter-spacing: 0.03em;
 text-decoration: none;
 text-transform: uppercase;
 }
-.web-logo {
-color: var(--color-logo);
-}
+
 .studio-logo {
 color: var(--primery-text-color);
 }
