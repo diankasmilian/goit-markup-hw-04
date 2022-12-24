@@ -228,36 +228,26 @@ color: var(--text);
 margin-right: 24px;
 }
 
-.description-item::before {
+.icon-description {
     display: block;
-    content: "";
-    height: 112px;
-    background-repeat: no-repeat;
-    background-position: center;
     background-color: var(--light);
-    border-radius: 4px;
-    margin-bottom: 8px;
+    width: 264px;
+height: 112px;
+border-radius: 4px;
+margin-bottom: 8px;
 }
 
-.icon-strategy::before {
-background-image: url(../images/strategy.svg);
-background-size: 60px 64px;
+.strategy, .punctuality {
+    padding: 24px 102px;
+}
+.diligence {
+    padding: 31px 100px;
+}
+.technologies {
+    padding: 24px 100px;
 }
 
-.icon-punctuality::before {
-background-image: url(../images/punctuality.svg);
-background-size: 62px 64px;
-}
 
-.icon-diligence::before {
-background-image: url(../images/diligence.svg);
-background-size: 64px 49px;
-}
-
-.icon-technologies::before {
-background-image: url(../images/technologies.svg);
-background-size: 64px 64px;
-}
 
 /* -----Work section */
 
@@ -539,6 +529,7 @@ letter-spacing: 0.02em;
     margin-right: 16px;
     padding: 8px;
 
+    
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -551,4 +542,8 @@ letter-spacing: 0.02em;
 
 .social-items:hover, .social-items:focus {
     background-color: var(--success);
+}
+
+.social-icon {
+    fill: var(--light);
 }
