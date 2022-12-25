@@ -229,24 +229,15 @@ margin-right: 24px;
 }
 
 .icon-description {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--light);
     width: 264px;
 height: 112px;
 border-radius: 4px;
 margin-bottom: 8px;
 }
-
-.strategy, .punctuality {
-    padding: 24px 102px;
-}
-.diligence {
-    padding: 31px 100px;
-}
-.technologies {
-    padding: 24px 100px;
-}
-
 
 
 /* -----Work section */
@@ -338,10 +329,6 @@ margin-bottom: 12px;
 }
 
 /* -----Customers section */
-
-.container-customers {
-    padding: 120px 0;
-}
 
 .customers-title {
 font-weight: 700;
@@ -525,6 +512,7 @@ letter-spacing: 0.02em;
     display: flex;
 }
 
+
 .social-items {
     margin-right: 16px;
     padding: 8px;
@@ -540,7 +528,7 @@ letter-spacing: 0.02em;
     margin-right: 0;
 }
 
-.social-items:hover, .social-items:focus {
+.social-items:hover, .social-link:focus {
     background-color: var(--success);
 }
 
